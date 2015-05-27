@@ -5,7 +5,7 @@ dht11 DHT11;
 #define DHT11PIN 3
 
 void setup() {
-  Serial.begin(57600);
+  Serial.begin(9600);
   Serial.println("Starting sensor test.");
 
 }
