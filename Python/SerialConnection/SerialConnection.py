@@ -7,8 +7,11 @@ while 1:
     with open('workfile', 'w') as f:
                 try:
                         line = ser.readline()
-                        f.write(line)
+                        print "Line = " + line
+                        if len(line) > 3:
+                                f.write(line)
                 except ser.SerialTimeoutException:
+                        print "exception occured"
                         f.write('Data could not be read')
     f.close()
-    time.sleep(1)
+    time.sleep(1);

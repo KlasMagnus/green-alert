@@ -28,7 +28,6 @@ void loop() {
   }
   Serial.print((int)DHT11.humidity);
   Serial.print((int)DHT11.temperature);
-  Serial.println();
-  delay(2000);
+  delay(200);
 
 }
