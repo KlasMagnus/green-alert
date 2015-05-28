@@ -1,4 +1,5 @@
 __author__ = 'Magnus Johansson'
+# continously generates a random number and writes it to a file
 #!/usr/bin/python
 import time
 from random import randint
