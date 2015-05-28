@@ -14,7 +14,7 @@ void loop() {
   switch (check)
   {
     case DHTLIB_OK:
-      Serial.println("OK");
+      // Serial.println("OK");
       break;
     case DHTLIB_ERROR_CHECKSUM:
       Serial.println("Checksum error");

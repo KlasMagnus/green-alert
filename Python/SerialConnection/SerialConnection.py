@@ -9,8 +9,8 @@ while 1:
                         line = ser.readline()
                         if line == "OK":
                                 line = ser.readline()
-                                tempstr = 'Current temperature in °C :'
-                                tempstr += `line`
+                                tempstr = 'Current temperature in Celsius :'
+                                tempstr += line
                                 f.write(tempstr)
                         else:
                                 f.write(line);
